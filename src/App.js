@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Quiz from './Quiz/Quiz';
 import { useState } from 'react';
-let quiz = [
+let quizz = [
   {
     "question": "Giá trị BER (Bit Error Rate = Tỷ lệ bít lỗi/Tỷ lệ bít truyền) phản ánh đặc trưng nào sau đây của đường truyền? ",
     "ans": [
@@ -2582,15 +2581,28 @@ let quiz = [
     ]
   }
 ]
+let ids = []
+
 function App() {
   const [quizId, setQuizId] = useState(0);
   const changeQuiz = () => {
-    setQuizId(quizId + 1);
+    let rand
+    do {
+      rand = Math.floor(Math.random() * quizz.length);
+
+    } while (ids.includes(rand))
+    ids.push(quizId);
+    setQuizId(rand)
   }
+  const backQues = () => {
+    const id = ids.pop();
+    setQuizId(id)
+  }
+
   return (
     <div className="App d-flex justify-center align-center full-height">
 
-      <Quiz quiz={quiz[quizId]} handleChangeQuiz={changeQuiz}></Quiz>
+      <Quiz quiz={quizz[quizId]} handleChangeQuiz={changeQuiz} handleBackQuiz={backQues}></Quiz>
     </div>
   );
 }

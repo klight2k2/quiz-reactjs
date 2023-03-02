@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './quiz.scss'
-export default function Quiz({ quiz, handleChangeQuiz }) {
+export default function Quiz({ quiz, handleChangeQuiz, handleBackQuiz }) {
     const [checkedState, setCheckedState] = useState(new Array(quiz.ans.length).fill(false))
     const [correct, setCorrect] = useState(new Array(quiz.ans.length).fill(0))
     const handleOnChange = (position) => {
@@ -29,6 +29,11 @@ export default function Quiz({ quiz, handleChangeQuiz }) {
     const handleNext = () => {
         handleChangeQuiz()
     }
+    const handlePrev = () => {
+        setCorrect(new Array(quiz.ans.length).fill(0));
+        setCheckedState(new Array(quiz.ans.length).fill(false));
+        handleBackQuiz()
+    }
     return (
         <div className='quiz '>
             <h2 className='title' >{quiz.question}</h2>
@@ -43,7 +48,7 @@ export default function Quiz({ quiz, handleChangeQuiz }) {
                     </div>
                 })}
             </div >
-
+            <button onClick={handlePrev} className='mr-8 button-pre'>Trở về</button>
             {
                 correct.every(item => item === 0) ? <button className='button' onClick={handleSubmit}>Nộp</button> : <button className='button' onClick={handleNext}>Next</button>
             }

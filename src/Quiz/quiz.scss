@@ -19,6 +19,7 @@
     padding: 10px;
 }
 $theme-color: #1c82ad;
+$theme-color1: #e6033c;
 $anim-duration: 0.3s;
 .button {
     margin-top: 8px;
@@ -43,6 +44,38 @@ $anim-duration: 0.3s;
         right: 0;
         bottom: 0;
         background-color: var(--c, $theme-color);
+        z-index: -1;
+        transition: height $anim-duration ease;
+    }
+    &:hover {
+        &::before {
+            height: 100%;
+        }
+    }
+}
+.button-pre {
+    margin-top: 8px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: #191825;
+    font-weight: normal;
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: none;
+    border: 3px var(--c, $theme-color1) solid;
+    z-index: 2;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--c, $theme-color1);
         z-index: -1;
         transition: height $anim-duration ease;
     }
