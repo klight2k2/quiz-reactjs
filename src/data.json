@@ -1036,7 +1036,7 @@
             " 1024 "
         ]
         ,"key":[
-
+            " 1022 "
         ]
     },
     {
@@ -1049,7 +1049,8 @@
             "160.12.76.0 /22 "
         ]
         ,"key":[
-
+            "160.12.70.0 /22 ",
+            "160.12.74.0 /22 "
         ]
     },
     {
@@ -1063,7 +1064,8 @@
             "172.16.150.1 /21"
         ]
         ,"key":[
-
+            "172.16.100.1 /20",
+            "172.16.110.1 /20"
         ]
     },
     {
@@ -1077,7 +1079,9 @@
             "172.12.101.57 /16"
         ]
         ,"key":[
-
+            "127.0.0.1 /8",
+            "169.254.1.1 /16",
+            "192.168.1.1 /24"
         ]
     },
     {
@@ -1090,7 +1094,7 @@
             " E "
         ]
         ,"key":[
-
+            " B "
         ]
     },
     {
@@ -1104,7 +1108,7 @@
         "172.16.3.255 /22"
         ]
         ,"key":[
-
+            "172.16.3.255 /21"
         ]
     },
     {
@@ -1117,7 +1121,7 @@
              "255.252.0.0"
         ]
         ,"key":[
-
+            "255.248.0.0"
         ]
     },
     {
@@ -1131,7 +1135,7 @@
             " 30 "
         ]
         ,"key":[
-
+            " 126 "
         ]
     },
     {
@@ -1143,7 +1147,7 @@
             " 5 "
         ]
         ,"key":[
-
+            " 30 "
         ]
     },
     {
@@ -1155,7 +1159,7 @@
             "224.0.0.25"
         ]
         ,"key":[
-
+            "224.0.0.25"
         ]
     },
     {
@@ -1167,7 +1171,7 @@
             "67.125.128.0 /17"
         ]
         ,"key":[
-
+            "67.125.64.0 /19"
         ]
     },
     {
@@ -1180,7 +1184,7 @@
             
         ]
         ,"key":[
-
+            "255.255.252.0"
         ]
     },
     {
@@ -1193,7 +1197,7 @@
             " Thời gian tối đa gói tin có thể nằm trong hàng đợi"
         ]
         ,"key":[
-
+            " Số chặng tối đa gói tin có thể được chuyển tiếp qua "
         ]
     },
     {
@@ -1205,7 +1209,8 @@
             " Chờ báo nhận trước khi gửi gói tin tiếp theo "
         ]
         ,"key":[
-
+            " Thiết lập liên kết với phía nhận trước khi truyền đi ",
+            " Chờ báo nhận trước khi gửi gói tin tiếp theo "
         ]
     },
     {
@@ -1218,7 +1223,9 @@
             " Xác định giao thức tầng trên nào sẽ xử lý tiếp dữ liệu "
         ]
         ,"key":[
-
+            " Kiểm tra checksum để phát hiện lỗi ",
+            " Hợp mảnh các gói tin nếu cần ",
+            " Xác định giao thức tầng trên nào sẽ xử lý tiếp dữ liệu "
         ]
     },
     {
@@ -1230,7 +1237,8 @@
             " Hủy gói tin nếu TTL = 0 "
         ]
         ,"key":[
-
+            " Sửa lỗi nếu có lỗi ",
+            " Phát báo nhận cho nút gửi "
         ]
     },
     {
@@ -1242,7 +1250,7 @@
             " Gửi lại gói tin cho nút nguồn "
         ]
         ,"key":[
-
+            " Hủy gói tin và báo lỗi cho nút nguồn "
         ]
     },
     {
@@ -1256,7 +1264,7 @@
             " Giảm giá trị TTL của gói tin "
         ]
         ,"key":[
-
+            " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết "
         ]
     },
     {
@@ -1269,7 +1277,9 @@
             " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết "
         ]
         ,"key":[
-
+            " Thiết lập liên kết với nút kế tiếp ",
+            " Quảng bá gói tin nếu không tìm thấy lối ra  ",
+            " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết "
         ]
     },
     {
@@ -1282,7 +1292,10 @@
             " Giá trị TTL = 1 "
         ]
         ,"key":[
-
+            " Phát hiện lỗi thông qua trường checksum ",
+            " Không tìm thấy cổng ra trên bảng chuyển tiếp ",
+            " Hàng đợi trên router bị đầy ",
+            " Giá trị TTL = 1 "
         ]
     },
     {
@@ -1294,7 +1307,7 @@
             " NAT "
         ]
         ,"key":[
-
+            " NAT "
         ]
     },
     {
@@ -1306,7 +1319,7 @@
             " Phát hiện lỗi trên gói tin"
         ]
         ,"key":[
-
+            " Kích thước gói tin lớn hơn MTU của đường truyền "
         ]
     },
     {
@@ -1319,7 +1332,7 @@
             " Kích thước vùng trống trong bộ đệm của nút kế tiếp không đủ để nhận gói tin"
         ]
         ,"key":[
-
+            " Kích thước gói tin lớn hơn MTU của đường truyền "
         ]
     },
     {
@@ -1332,7 +1345,7 @@
             " 96, 552, 552 "
         ]
         ,"key":[
-
+            " 552, 552, 96 "
         ]
     },
     {
