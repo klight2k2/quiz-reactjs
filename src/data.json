@@ -2016,6 +2016,8 @@
             " 1000BASE-CX "
         ]
         ,"key":[
+            " 100BASE-T ",
+            " 100BASE-F "
 
         ]
     },
@@ -2029,11 +2031,12 @@
             " IEEE"
         ]
         ,"key":[
+            " 100BASE-T "
 
         ]
     },
     {
-        "question": "Phương pháp mã hóa nào sau đây sử dụng đề điều chế dữ liệu số-tín hiệu số?(Chọn 2 đáp án) ",
+        "question": "Phương pháp mã hóa nào sau đây sử dụng đề điều chế dữ liệu số-tín hiệu số? ",
         "ans": [
             " Mã parity ",
             " Mã checksum ",
@@ -2042,6 +2045,8 @@
             " Mã Manchester"
         ]
         ,"key":[
+            " Mã NRZ ",
+            " Mã Manchester"
 
         ]
     },
@@ -2054,6 +2059,7 @@
             " Thay thế chuỗi các bit 0 liên tiếp bằng mẫu bít đặc biệt để tránh mất đồng bộ "
         ]
         ,"key":[
+            " Được sử dụng tại tầng vật lý "
 
         ]
     },
@@ -2067,6 +2073,7 @@
             " Mã CRC-32"
         ]
         ,"key":[
+            " Mã CRC-32"
 
         ]
     },
@@ -2079,6 +2086,7 @@
             " Tầng vật lý "
         ]
         ,"key":[
+            " Tầng vật lý "
 
         ]
     },
@@ -2092,6 +2100,9 @@
             " Loại thiết bị cần phải sử dụng"
         ]
         ,"key":[
+            " Cách thức xử lý dữ liệu ",
+            " Thứ tự truyền của dữ liệu ",
+            " Cú pháp và ngữ nghĩa của dữ liệu "
 
         ]
     },
@@ -2106,6 +2117,10 @@
             " Là một mô hình phân tầng"
         ]
         ,"key":[
+            " Có một tập hợp các giao thức để điều khiển hoạt động truyền tin trong mạng ",
+            " Là một mô hình để phát triển các chức năng cho thành phần phần mềm cho mỗi nút mạng ",
+            " Là mô hình dùng cho mạng Internet ",
+            " Là một mô hình phân tầng"
 
         ]
     },
@@ -2119,6 +2134,7 @@
             " Vật lý, Mạng, Liên kết dữ liệu, Ứng dụng, Giao vận"
         ]
         ,"key":[
+            " Ứng dụng, Giao vận, Mạng, Liên kết dữ liệu, Vật lý "
 
         ]
     },
@@ -2132,6 +2148,7 @@
             " Mạng"
         ]
         ,"key":[
+            " Ứng dụng  "
 
         ]
     },
@@ -2144,6 +2161,7 @@
             " Điều khiển truyền dữ liệu giữa các ứng dụng mạng"
         ]
         ,"key":[
+            " Điều khiển truyền tín hiệu trên đường truyền "
 
         ]
     },
@@ -2157,6 +2175,9 @@
             " Rẻ hơn"
         ]
         ,"key":[
+            " Chống nhiễu tốt hơn ",
+            " Kết nối xa hơn ",
+            " Tốc độ truyền cao hơn "
 
         ]
     },
@@ -2169,6 +2190,7 @@
             " Điều khiển truyền dữ liệu giữa các nút trên liên kết vật lý"
         ]
         ,"key":[
+            " Điều khiển truyền dữ liệu giữa các nút trên liên kết vật lý"
 
         ]
     },
@@ -2181,6 +2203,8 @@
             " Dùng để phân biệt các nút khác nhau trong cùng mạng"
         ]
         ,"key":[
+            " Có kích thước 48 bit ",
+            " Dùng để phân biệt các nút khác nhau trong cùng mạng"
 
         ]
     },
@@ -2192,6 +2216,8 @@
             " Đồng bộ tốc độ truyền"
         ]
         ,"key":[
+            " Báo hiệu bắt đầu một khung tin ",
+            " Đồng bộ tốc độ truyền"
 
         ]
     },
@@ -2204,6 +2230,7 @@
             " 46"
         ]
         ,"key":[
+            " 64 ",
 
         ]
     },
@@ -2217,6 +2244,9 @@
             " Tìm đường đi"
         ]
         ,"key":[
+            " Đóng gói dữ liệu ",
+            " Chuyển tiếp dữ liệu sang mạng khác ",
+            " Tìm đường đi"
 
         ]
     },
@@ -2230,7 +2260,8 @@
             " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết"
         ]
         ,"key":[
-
+            " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết"
+            
         ]
     },
     {
@@ -2243,6 +2274,10 @@
             " Hàng đợi trên router bị đầy"
         ]
         ,"key":[
+            " Giá trị TTL = 0 ",
+            " Không tìm thấy cổng ra trên bảng chuyển tiếp ",
+            " Phát hiện lỗi thông qua trường checksum ",
+            " Hàng đợi trên router bị đầy"
 
         ]
     },
@@ -2256,6 +2291,8 @@
             "180.201.1.3"
         ]
         ,"key":[
+            "132.34.41.13", 
+            "180.201.1.3"
 
         ]
     },
@@ -2269,7 +2306,8 @@
             "208.67.222.222"
         ]
         ,"key":[
-
+            
+            "208.67.222.222"
         ]
     },
     {
@@ -2281,6 +2319,8 @@
             "140.31.32.0 /18"
         ]
         ,"key":[
+            "202.191.56.64 /27", 
+            "24.2.128.0 /17"
 
         ]
     },
@@ -2294,6 +2334,9 @@
             "80.63.255.255 /12"
         ]
         ,"key":[
+            "134.25.14.255 /24", 
+            "195.34.1.159 /28", 
+            "80.63.255.255 /12"
 
         ]
     },
@@ -2306,6 +2349,7 @@
             " DHCP Discover"
         ]
         ,"key":[
+            " DHCP Discover"
 
         ]
     },
@@ -2318,6 +2362,7 @@
             " DHCP Request"
         ]
         ,"key":[
+            " DHCP Offer "
 
         ]
     },
@@ -2329,6 +2374,7 @@
             " Ngặn chặn các thông điệp DHCP của máy chủ lạ gửi vào trong mạng"
         ]
         ,"key":[
+            " Chuyển tiếp các thông điệp DHCP "
 
         ]
     },
@@ -2340,18 +2386,11 @@
             " PAT"
         ]
         ,"key":[
+            " Static NAT "
 
         ]
     },
-    {
-        "question": "Địa chỉ trên gói tin này thay đổi như thế nào?   ",
-        "ans": [
-            " Địa chỉ đích được thay thế bằng"
-        ]
-        ,"key":[
 
-        ]
-    },
     {
         "question": "Giao thức ARP thực hiện chức năng gì?  ",
         "ans": [
@@ -2361,6 +2400,7 @@
             " Tìm địa chỉ IP của một nút trong cùng mạng"
         ]
         ,"key":[
+            " Tìm địa chỉ MAC của một nút trong cùng mạng "
 
         ]
     },
@@ -2372,6 +2412,7 @@
             " Unicast"
         ]
         ,"key":[
+            " Broadcast "
 
         ]
     },
@@ -2384,6 +2425,7 @@
             " Destination Network Unreachable"
         ]
         ,"key":[
+            " ICMP Echo Request "
 
         ]
     },
@@ -2396,7 +2438,7 @@
             " Hàng đợi chờ chuyển tiếp gói tin bị đầy"
         ]
         ,"key":[
-
+            " Nhận được gói tin có giá trị TTL = 0 "
         ]
     },
     {
@@ -2410,6 +2452,7 @@
             " FIN"
         ]
         ,"key":[
+            " SYN "
 
         ]
     },
@@ -2424,6 +2467,8 @@
             " FIN"
         ]
         ,"key":[
+            " ACK ",
+            " SYN "
 
         ]
     },
@@ -2435,6 +2480,10 @@
             " PSH ",
             " SYN ",
             " RST ",
+            " FIN"
+        ],
+        "key":[
+            
             " FIN"
         ]
     }
