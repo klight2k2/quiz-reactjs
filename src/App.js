@@ -26,7 +26,7 @@ let quiz = [
       " Trễ 2 chiều giữa nút nguồn và nút đích "
     ],
     "key": [
-      " Trễ lan truyền tín hiệu trên đường truyền "
+      " Trễ 2 chiều giữa nút nguồn và nút đích "
 
     ]
   },
