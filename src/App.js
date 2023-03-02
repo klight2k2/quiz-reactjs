@@ -12,8 +12,7 @@ let quiz = [
       " Độ suy hao tín hiệu ",
       " Độ trễ "
     ],
-    key: [
-      " Thông lượng ",
+    "key": [
       " Độ tin cậy "
 
     ]
@@ -25,6 +24,10 @@ let quiz = [
       " Thời gian chọn đường trên bộ định tuyến (router) ",
       " Trễ lan truyền tín hiệu trên đường truyền ",
       " Trễ 2 chiều giữa nút nguồn và nút đích "
+    ],
+    "key": [
+      " Trễ 2 chiều giữa nút nguồn và nút đích "
+
     ]
   },
   {
@@ -35,6 +38,10 @@ let quiz = [
       " 40 s ",
       " 140 s ",
       " Xấp xỉ"
+    ],
+    "key": [
+      " 80 s "
+
     ]
   },
   {
@@ -43,7 +50,11 @@ let quiz = [
       " Chỉ gửi dữ liệu 1 lần, không phát lại ",
       " Thiết lập liên kết trước khi truyền ",
       " Sử dụng báo nhận"
+    ],
+    "key": [
+      " Chỉ gửi dữ liệu 1 lần, không phát lại "
     ]
+
   },
   {
     "question": "Tại sao đường truyền phải có giá trị MTU(Maximum Transmission Unit) để giới hạn kích thước của gói tin được truyền? ",
@@ -52,6 +63,10 @@ let quiz = [
       " Giảm tỉ lệ lỗi bit (BER – Bit Error Rate) ",
       " Giảm xác suất phải truyền lại dữ liệu ",
       " Tăng tốc độ truyền tin "
+    ],
+    "key": [
+      " Giảm xác suất phải truyền lại dữ liệu "
+
     ]
   },
   {
@@ -61,16 +76,25 @@ let quiz = [
       " Giảm trễ hàng đợi ",
       " Tăng hiệu suất sử dụng đường truyền ",
       " Tránh tắc nghẽn"
+    ],
+    "key": [
+      " Giảm tỉ lệ phải truyền lại do lỗi bit trên gói tin  "
+
     ]
   },
   {
-    "question": "Thông số nào sau đây được sử dụng để đánh giá độ tin cậy của đường truyền?  (Chọn 2 đáp án) ",
+    "question": "Thông số nào sau đây được sử dụng để đánh giá độ tin cậy của đường truyền? ",
     "ans": [
       " Băng thông ",
       " Độ trễ ",
       " Độ suy hao ",
       " Tỉ lệ lỗi bit (BER) ",
       " Tỉ lệ mất gói tin"
+    ],
+    "key": [
+      " Tỉ lệ lỗi bit (BER) ",
+      " Tỉ lệ mất gói tin"
+
     ]
   },
   {
@@ -80,25 +104,39 @@ let quiz = [
       " Quy định cách thức xử lý dữ liệu ở mỗi bên ",
       " Quy định thứ tự các thông điệp khi truyền ",
       " Độc lập với các giao thức khác"
+    ],
+    "key": [
+      " Độc lập với các giao thức khác"
+
     ]
   },
   {
-    "question": "Mô tả nào sau đây là đúng về kiến trúc phân tầng trong hệ thống truyền thông?  (chọn 2 đáp án) ",
+    "question": "Mô tả nào sau đây là đúng về kiến trúc phân tầng trong hệ thống truyền thông?",
     "ans": [
       " Thứ tự các tầng có thể thay đổi linh hoạt khi triển khai ",
       " Tầng trên quyết định cách thức cung cấp dịch vụ của tầng dưới ",
       " Tầng dưới cung cấp dịch vụ cho tầng trên qua điểm truy cập dịch vụ (SAP) ",
       " Một số tầng không cần triển khai trên tất cả các nút mạng ",
       " Giao thức của mỗi tầng độc lập với nhau"
+    ],
+    "key": [
+      " Một số tầng không cần triển khai trên tất cả các nút mạng ",
+      " Tầng dưới cung cấp dịch vụ cho tầng trên qua điểm truy cập dịch vụ (SAP) "
+
     ]
   },
   {
-    "question": "Trong kiến trúc phân tầng của hệ thống truyền thông, phát biểu nào sau đây là đúng?  (Chọn 2 đáp án) ",
+    "question": "Trong kiến trúc phân tầng của hệ thống truyền thông, phát biểu nào sau đây là đúng? ",
     "ans": [
       " Tại mỗi tầng, hai bên tham gia quá trình truyền tin phải sử dụng giao thức giống nhau ",
       " Quá trình đóng gói dữ liệu tại bên gửi được thực hiện từ tầng trên xuống tầng dưới ",
       " Mỗi mô hình phân tầng chọn một giao thức mạng để điều khiển hoạt động tất cả các tầng ",
       " Hoạt động của mỗi tầng không phụ thuộc vào các tầng khác"
+    ],
+    "key": [
+      " Tại mỗi tầng, hai bên tham gia quá trình truyền tin phải sử dụng giao thức giống nhau ",
+      " Quá trình đóng gói dữ liệu tại bên gửi được thực hiện từ tầng trên xuống tầng dưới "
+
     ]
   },
   {
@@ -108,6 +146,10 @@ let quiz = [
       " Một tầng trong mô hình OSI ",
       " Đơn vị dữ liệu được đóng gói theo giao thức của mỗi tầng trong kiến trúc phân tầng ",
       " Điểm truy cập dịch vụ của mỗi tầng cung cấp cho tầng trên"
+    ],
+    "key": [
+      " Đơn vị dữ liệu được đóng gói theo giao thức của mỗi tầng trong kiến trúc phân tầng "
+
     ]
   },
   {
@@ -117,15 +159,23 @@ let quiz = [
       " Loại bỏ phần tiêu đề của gói tin ",
       " Thêm tiêu đề cho gói tin ",
       " Thay thế tiêu đề của gói tin bằng tiêu đề mới"
+    ],
+    "key": [
+      " Thêm tiêu đề cho gói tin "
+
     ]
   },
   {
     "question": "Đóng gói dữ liệu(encapsuation) trong kiến trúc phân tầng được thực hiện như thế nào? ",
     "ans": [
-      " Thêm phần tiêu đề mới vào gói tin nhận được ở tầng trên ",
       " Thay thế tiêu đề của gói tin tầng trên bằng tiêu đề mới ",
+      " Thêm phần tiêu đề mới vào gói tin nhận được ở tầng trên ",
       " Nén phần dữ liệu trong gói tin nhận được từ tầng trên ",
       " Chỉ thực hiện thêm phần tiêu đề ở tầng dưới cùng"
+    ],
+    "key": [
+      " Thêm phần tiêu đề mới vào gói tin nhận được ở tầng trên "
+
     ]
   },
   {
@@ -136,6 +186,10 @@ let quiz = [
       " Dữ liệu được đóng gói theo giao thức điều khiển ",
       " Chức năng trên mỗi tầng là khác nhau ",
       " Hai tầng trên liên kết phải sử dụng giao thức giống nhau"
+    ],
+    "key": [
+      " Tầng trên sử dụng dịch vụ của tầng dưới qua điểm truy cập dịch vụ (SAP) mà không cần quan tâm cách thức tầng dưới thực hiện "
+
     ]
   },
   {
@@ -145,16 +199,25 @@ let quiz = [
       " Tầng liên kết dữ liệu ",
       " Tầng mạng ",
       " Tầng giao vận"
+    ],
+    "key": [
+      " Tầng liên kết dữ liệu "
+
     ]
   },
   {
-    "question": "Trong quá trình truyền dữ liệu, chức năng của tầng nào trong mô hình TCP/IP chỉ thực hiện trên các hệ thống đầu cuối? (chọn 2 đáp án) ",
+    "question": "Trong quá trình truyền dữ liệu, chức năng của tầng nào trong mô hình TCP/IP chỉ thực hiện trên các hệ thống đầu cuối?",
     "ans": [
       " Tầng ứng dụng ",
       " Tầng giao vận ",
       " Tầng mạng ",
       " Tầng liên kết dữ liệu ",
       " Tầng vật lý"
+    ],
+    "key": [
+      " Tầng ứng dụng ",
+      " Tầng giao vận "
+
     ]
   },
   {
@@ -164,6 +227,10 @@ let quiz = [
       " Tầng ứng dụng, tầng trình diễn  ",
       " Tầng ứng dụng, tầng phiên, tầng trình diễn ",
       " Tầng ứng dụng, tầng giao vận, tầng mạng"
+    ],
+    "key": [
+      " Tầng ứng dụng, tầng phiên, tầng trình diễn "
+
     ]
   },
   {
@@ -173,6 +240,10 @@ let quiz = [
       " Tầng mạng ",
       " Tầng liên kết dữ liệu ",
       " Tầng vật lý"
+    ],
+    "key": [
+      " Tầng giao vận "
+
     ]
   },
   {
@@ -183,6 +254,11 @@ let quiz = [
       " Chuyển tiếp dữ liệu trên mạng chuyển mạch kênh chậm hơn trên mạng chuyển mạch gói ",
       " Khi chuyển tiếp dữ liệu trong mạng chuyển mạch gói, có thể thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi ",
       " Trong chuyển mạch kênh, tài nguyên của mỗi cuộc hội thoại được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu"
+    ],
+    "key": [
+      " Mạng chuyển mạch kênh cung cấp dịch vụ theo mô hình hướng kết nối (connection-oriented) ",
+      " Chuyển tiếp dữ liệu trên mạng chuyển mạch kênh chậm hơn trên mạng chuyển mạch gói "
+
     ]
   },
   {
@@ -190,12 +266,15 @@ let quiz = [
     "ans": [
       " Tài nguyên của mỗi kênh là như nhau với mọi liên kết, không phụ thuộc vào yêu cầu chất lượng dịch vụ. ",
       " Trong mạng chuyển mạch kênh, do trước khi truyền dữ liệu, kênh truyền đã được thiết lập nên các giao thức tầng trên luôn là giao thức hướng không kết nối (connectionless). ",
-      " Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệ",
-      " ",
+      " Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu",
+      " Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu",
       " Để tăng độ tin cậy khi truyền tải dữ liệu, một kênh làm việc và một kênh dự phòng sẽ được thiết lập cho mỗi liên kế",
-      " ",
-      " Kênh sẽ được giải phóng khi một trong hai bên bất kỳ ngắt liên kế",
-      ""
+      " Kênh sẽ được giải phóng khi một trong hai bên bất kỳ ngắt liên kế"
+    ],
+    "key": [
+      " Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu",
+      " Kênh sẽ được giải phóng khi một trong hai bên bất kỳ ngắt liên kế"
+
     ]
   },
   {
@@ -206,28 +285,29 @@ let quiz = [
       " Không xảy ra tắc nghẽn ",
       " Đảm bảo chất lượng dịch vụ ",
       " Không mất thời gian thiết lập kênh truyền"
+    ],
+    "key": [
+      " Hiệu suất sử dụng đường truyền cao hơn ",
+      " Không mất thời gian thiết lập kênh truyền"
+
     ]
   },
   {
-    "question": "Những phát biểu nào là SAI về hoạt động của kỹ thuật chuyển mạch gói?  (Chọn 2 đáp án) ",
+    "question": "Những phát biểu nào là SAI về hoạt động của kỹ thuật chuyển mạch gói?",
     "ans": [
-      " Gói tin của các liên kết khác nhau được truyền trên cùng một đường truyền vật lý  ",
+      " Gói tin của các liên kết khác nhau được truyền trên cùng một đường truyền vật lý",
       " Độ trễ trong mạng không phụ thuộc vào tải ",
-      " Trên cùng một liên kết vật lý, tất cả các gói tin đều được truyền với tốc độ như nha",
-      " ",
+      " Trên cùng một liên kết vật lý, tất cả các gói tin đều được truyền với tốc độ như nhau",
       " Các gói tin tới cùng một đích luôn được truyền theo cùng tuyến đường đi ",
       " Cho phép thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi"
+    ],
+    "key": [
+      " Độ trễ trong mạng không phụ thuộc vào tải ",
+      " Các gói tin tới cùng một đích luôn được truyền theo cùng tuyến đường đi "
+
     ]
   },
-  {
-    "question": "Đồ thị nào sau đây mô tả tình trạng tắc nghẽn của mạng? (Chọn 2 đáp án) ",
-    "ans": [
-      "  ",
-      "  ",
-      "  ",
-      ""
-    ]
-  },
+
   {
     "question": "Giao thức nào sau đây không nằm cùng nhóm với các giao thức còn lại? ",
     "ans": [
@@ -236,17 +316,26 @@ let quiz = [
       " SMTP ",
       " TCP ",
       " ICMP"
+    ],
+    "key": [
+      " FTP "
+
     ]
   },
   {
-    "question": "Các giao thức nào sau đây sử dụng giao thức TCP của tầng giao vận?  (Chọn 2 đáp án) ",
+    "question": "Các giao thức nào sau đây sử dụng giao thức TCP của tầng giao vận?  ",
     "ans": [
       " DNS ",
       " DHCP ",
       " FTP ",
       " POP ",
       " IP ",
-      " OSPF Tầng ứng dụng"
+      " OSPF "
+    ],
+    "key": [
+      " FTP ",
+      " POP "
+
     ]
   },
   {
@@ -257,6 +346,10 @@ let quiz = [
       " HTTP, TCP, IP, Ethernet ",
       " Ethernet, IP, TCP, HTTP ",
       " Ethernet, IP, TCP, FTP "
+    ],
+    "key": [
+      " HTTP, TCP, IP, Ethernet "
+
     ]
   },
   {
@@ -267,29 +360,30 @@ let quiz = [
       " SMTP, UDP, IP, Ethernet ",
       " DNS, UDP, IP, Ethernet "
     ]
+    , "key": [
+      " DNS, UDP, IP, Ethernet "
+
+    ]
   },
   {
-    "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiết khi một người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com tới user@yahoo.com ?(Chọn 3 đáp án) ",
+    "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiết khi một người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com tới user@yahoo.com ? ",
     "ans": [
       " SMTP ",
       " POP ",
       " IMAP ",
       " DNS ",
+      " HTTP ",
       " HTTP ",
       " TCP "
     ]
-  },
-  {
-    "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiết khi một người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com tới user@yahoo.com?(Chọn 2 đáp án) ",
-    "ans": [
-      " SMTP ",
-      " POP ",
-      " IMAP ",
-      " DNS ",
+    , "key": [
       " HTTP ",
-      " TCP"
+      " DNS ",
+      " SMTP "
+
     ]
   },
+
   {
     "question": "Phát biểu nào sau đây là SAI về hệ thống tên miền DNS? ",
     "ans": [
@@ -298,15 +392,24 @@ let quiz = [
       " Trong cơ chế phân giải đệ quy, máy chủ tên miền luôn chuyển truy vấn cho máy chủ gốc ",
       " Trong cơ chế phân giải tương tác, máy chủ tên miền luôn trả lại thông tin tên miền được truy vấn   "
     ]
+    , "key": [
+      " Trong cơ chế phân giải tương tác, máy chủ tên miền luôn trả lại thông tin tên miền được truy vấn   "
+
+    ]
   },
   {
-    "question": "Phát biểu nào sau đây là đúng về hệ thống DNS?(Chọn 2 đáp án) ",
+    "question": "Phát biểu nào sau đây là đúng về hệ thống DNS? ",
     "ans": [
       " Mỗi tên miền chỉ ánh xạ tới một địa chỉ IP ",
       " Mỗi địa chỉ IP có thể ánh xạ tới nhiều tên miền ",
       " Hệ thống máy chủ tên miền gốc lưu trữ thông tin của toàn bộ tên miền trên Internet ",
       " Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốc tới các nút nhánh  ",
       " Phân giải đệ quy được sử dụng thay cho phân giải tương tác vì nó tin cậy hơn "
+    ]
+    , "key": [
+      " Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốc tới các nút nhánh  ",
+      " Mỗi địa chỉ IP có thể ánh xạ tới nhiều tên miền "
+
     ]
   },
   {
@@ -317,23 +420,38 @@ let quiz = [
       " POP ",
       " IMAP "
     ]
+    , "key": [
+      " POP "
+
+    ]
   },
   {
-    "question": "Giả sử một máy chủ Web được chuyển đổi kết nối sang một mạng khác, những thao tác nào sau đây cần thực hiện để người dùng vẫn truy cập được qua tên miền cũ?(chọn 2 đáp án) ",
+    "question": "Giả sử một máy chủ Web được chuyển đổi kết nối sang một mạng khác, những thao tác nào sau đây cần thực hiện để người dùng vẫn truy cập được qua tên miền cũ?",
     "ans": [
       " Gán địa chỉ IP cho máy chủ theo địa chỉ mạng mới ",
       " Cấu hình lại giao thức định tuyến trên bộ định tuyến ",
       " Thay đổi ánh xạ tên miền sang địa chỉ IP mới ",
       " Cấu hình lại máy chủ DHCP "
     ]
+    , "key": [
+      " Gán địa chỉ IP cho máy chủ theo địa chỉ mạng mới ",
+      " Thay đổi ánh xạ tên miền sang địa chỉ IP mới "
+
+
+    ]
   },
   {
-    "question": "Phương thức nào được sử dụng trong thông điệp HTTP Request để yêu cầu một tài nguyên?  (Chọn 2 đáp án) ",
+    "question": "Phương thức nào được sử dụng trong thông điệp HTTP Request để yêu cầu một tài nguyên?  ",
     "ans": [
       " GET ",
       " POST ",
       " PUT ",
       " HEAD "
+    ]
+    , "key": [
+      " GET ",
+      " POST "
+
     ]
   },
   {
@@ -344,16 +462,13 @@ let quiz = [
       " 20 ",
       " 21 "
     ]
-  },
-  {
-    "question": "Một trang web có một đoạn văn vản và 10 ảnh minh họ",
-    "ans": [
-      " File mã nguồn HTML và các file ảnh nằm trên 2 máy chủ Web khác nha",
-      " Khi người dùng truy cập vào trang web này, có bao nhiêu kết nối TCP được thiết lập nếu giao thức được sử dụng là HTTP"
+    , "key": [
+      " 21 "
+
     ]
   },
   {
-    "question": "1? ",
+    "question": "Một trang web có một đoạn văn vản và 10 ảnh minh họa. File mã nguồn　HTML và các file ảnh nằm trên 2 máy chủ Web khác nhau. Khi người dùng truy cập vào trang web này, có bao nhiêu kết nối TCP được thiết lập nếu giao thức được sử dụng là HTTP 1.1? ",
     "ans": [
       " 10 ",
       " 11 ",
@@ -361,7 +476,12 @@ let quiz = [
       " 2 ",
       " Không xác định "
     ]
+    , "key": [
+      " 2 "
+
+    ]
   },
+
   {
     "question": "Có bao nhiêu thông điệp được trao đổi giữa trình duyệt và máy chủ Web nếu người dùng truy cập vào một trang Web có vài đoạn văn bản và 4 bức ảnh?  ",
     "ans": [
@@ -371,15 +491,23 @@ let quiz = [
       " 5 HTTP Request, 1 HTTP Response ",
       " Không xác định "
     ]
+    , "key": [
+      " 5 HTTP Request, 5 HTTP Response "
+
+    ]
   },
   {
-    "question": "Giao thức FTP sử dụng số hiệu cổng ứng dụng nào?(Chọn 2 đáp án) ",
+    "question": "Giao thức FTP sử dụng số hiệu cổng ứng dụng nào?",
     "ans": [
       " 20 ",
       " 21 ",
       " 22 ",
       " 25 ",
       " 53 "
+    ]
+    , "key": [
+      " 20 ",
+      " 21 "
     ]
   },
   {
@@ -390,6 +518,10 @@ let quiz = [
       " Một kết nối tải tệp tin lên (upload), kết nối còn lại để tải xuống (download) ",
       " Một kết nối để truyền dữ liệu của tệp tin, một kết nối để truyền thông điệp điều khiển"
     ]
+    , "key": [
+      " Một kết nối để truyền dữ liệu của tệp tin, một kết nối để truyền thông điệp điều khiển"
+
+    ]
   },
   {
     "question": "Tại bên nhận, dựa vào thông tin nào dữ liệu được chuyển tới đúng tiến trình trên tầng ứng dụng để xử lý? ",
@@ -399,15 +531,24 @@ let quiz = [
       " Địa chỉ IP đích ",
       " Giao thức tại tầng giao vận Tầng giao vận - UDP"
     ]
+    , "key": [
+      " Số hiệu cổng ứng dụng đích "
+
+    ]
   },
   {
-    "question": "Giả sử từ trên nút mạng A có hai tiến trình trao đổi dữ liệu với một tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng?(Chọn 2 đáp án) ",
+    "question": "Giả sử từ trên nút mạng A có hai tiến trình trao đổi dữ liệu với một tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng?",
     "ans": [
       " Hai tiến trình trên nút mạng A sử dụng chung một socket để trao đổi dữ liệu với tiến trinh trên nút B ",
       " Nút B sử dụng hai socket khác nhau để trao đổi dữ liệu với hai tiến trình của nút A ",
       " Các gói tin gửi từ nút A tới tiến trình trên nút B có cùng số hiệu cổng đích ",
       " Các gói tin gửi từ nút B tới hai tiến trình trên nút A có cùng số hiệu cổng đích ",
       " Hai tiến trình trên nút A đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể "
+    ]
+    , "key": [
+      " Các gói tin gửi từ nút A tới tiến trình trên nút B có cùng số hiệu cổng đích ",
+      " Hai tiến trình trên nút A đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể "
+
     ]
   },
   {
@@ -419,15 +560,25 @@ let quiz = [
       " Truyền dữ liệu video trong hội nghị trực tuyến  ",
       " Sao lưu, đồng bộ dữ liệu "
     ]
+    , "key": [
+      " Kiểm tra trạng thái hoạt động giữa các nút mạng ",
+      " Truyền dữ liệu video trong hội nghị trực tuyến  "
+    ]
   },
   {
-    "question": "Phát biểu nào sau đây là đúng về giao thức UDP?  (Chọn 3 đáp án) ",
+    "question": "Phát biểu nào sau đây là đúng về giao thức UDP?",
     "ans": [
       " Là một giao thức thuộc tầng giao vận ",
       " Truyền dữ liệu theo datagram ",
       " Cung cấp các cơ chế truyền thông tin cậy ",
       " Sử dụng time-out riêng cho mỗi datagram gửi đi ",
       " Gửi liên tục các datagram mà không cần chờ báo nhận "
+    ]
+    , "key": [
+      " Là một giao thức thuộc tầng giao vận ",
+      " Gửi liên tục các datagram mà không cần chờ báo nhận ",
+      " Truyền dữ liệu theo datagram "
+
     ]
   },
   {
@@ -437,6 +588,10 @@ let quiz = [
       " Không sử dụng báo nhận ",
       " Không kiểm tra lỗi trên gói tin ",
       " Không kiểm soát lượng dữ liệu gửi đi làm quá tải bên nhận "
+    ]
+    , "key": [
+      " Không sử dụng báo nhận "
+
     ]
   },
   {
@@ -448,6 +603,9 @@ let quiz = [
       " Chuyển gói tin xuống tầng mạng ",
       " Đặt bộ đếm time-out cho mỗi gói tin gửi đi "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức UDP, phía nhận không thực hiện thao nào dưới đây khi nhận được dữ liệu?(Chọn 2 đáp án) ",
@@ -456,6 +614,9 @@ let quiz = [
       " Báo nhận thành công ",
       " Loại bỏ các gói tin nhận được không theo đúng thứ tự ",
       " Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu cổng đích"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -468,6 +629,9 @@ let quiz = [
       " Loại bỏ các gói tin nhận được không theo đúng thứ tự ",
       " Hủy liên kết sau khi đã nhận đủ dữ liệu"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức UDP, phía nhận xử lý như thế nào khi gói tin nhận được bị lỗi? ",
@@ -476,6 +640,9 @@ let quiz = [
       " Hủy gói tin  ",
       " Gửi lại cho phía gửi sửa lỗi ",
       " Báo nhận không thành công để phía gửi phát lại"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -486,6 +653,9 @@ let quiz = [
       " Nhanh hơn ",
       " Không phải phát lại dữ liệu"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Ưu thế của giao thức TCP so với UDP là gì?(Chọn 3 đáp án) ",
@@ -494,6 +664,9 @@ let quiz = [
       " Tin cậy hơn ",
       " Không làm quá tải nút nhận ",
       " Có cơ chế kiểm soát tắc nghẽn  - TCP"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -505,6 +678,9 @@ let quiz = [
       " Kiểm soát luồng, không làm quá tải phía nhận ",
       " Kiểm soát tắc nghẽn "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức TCP, khi nào cần phát lại gói tin đã gửi đi?(Chọn 3 đáp án) ",
@@ -513,6 +689,9 @@ let quiz = [
       " Xảy ra timeout ",
       " Phát hiện lỗi trên gói tin báo nhận ",
       " Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổ trượt "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -523,6 +702,9 @@ let quiz = [
       " Tính toán ACK Number trên gói tin phản hồi để yêu cầu dữ liệu tiếp theo ",
       " Phản hồi lại gói tin đã nhận"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giá trị Windows size trong phần tiêu đề của gói tin TCP được sử dụng như thế nào? ",
@@ -531,6 +713,9 @@ let quiz = [
       " Xác định lượng dữ liệu tối đa bên gửi có thể gửi đi ",
       " Xác định lượng dữ liệu tối đa bên nhận có thể nhận ",
       " Thiết lập liên kết "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -542,6 +727,9 @@ let quiz = [
       " POP ",
       " FTP "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giá trị checksum trong phần tiêu đề của gói tin TCP được sử dụng như thế nào? ",
@@ -550,6 +738,9 @@ let quiz = [
       " Xác định lượng dữ liệu tối đa bên nhận có thể nhận ",
       " Thiết lập liên kết ",
       " Sửa lỗi trên gói tin"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -561,6 +752,9 @@ let quiz = [
       " Mã CRC 16 bit ",
       " Mã CRC 32 bit "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Khi nào một bên trong quá trình truyền tin điều khiển bằng TCP gửi gói tin có cờ FIN được thiết lập? ",
@@ -569,6 +763,9 @@ let quiz = [
       " Đồng ý thiết lập liên kết ",
       " Báo kết thúc gửi dữ liệu ",
       " Báo kết thúc nhận dữ liệu"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -580,6 +777,9 @@ let quiz = [
       " Host C sử dụng các socket khác nhau để tạo liên kết với host A và B ",
       " Host C sử dụng giá trị cửa số nhận giống nhau cho cả hai liên kết với A và B "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giả sử trên một nút mạng, P1 và P2 là hai tiến trình sử dụng giao thức TCP để trao đổi dữ liệu với tiến trình P3 trên nút mạng khác. Phát biểu nào sau đây là đúng? ",
@@ -588,6 +788,9 @@ let quiz = [
       " P1 và P2 không thể đồng thời gửi dữ liệu cho P3 ",
       " Khi P1 ngắt liên kết, P2 vẫn trao đổi dữ liệu một cách bình thường với P3 ",
       " P1 và P2 sử dụng cửa sổ kiểm soát tắc nghẽn giống nhau"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -599,6 +802,9 @@ let quiz = [
       " Gửi ACK xác nhận gói tin vừa nhận được với giá trị Receive Window = 0 ",
       " Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệm"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Nếu gói tin số 2 bị mất thì tổng số gói tin phía gửi đã gửi đi là bao nhiêu sau khi kết thúc quá trình truyền tin? ",
@@ -608,6 +814,9 @@ let quiz = [
       " 6 ",
       " 7 ",
       " 8"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -619,6 +828,9 @@ let quiz = [
       " Cho phép gửi dữ liệu ngay mà không cần chờ báo nhận ",
       " Phía gửi không cần chuyển sang giai đoạn tránh tắc nghẽn"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Quá trình điều khiển tắc nghẽn trong giao thức TCP không thực hiện thao tác nào? ",
@@ -627,6 +839,9 @@ let quiz = [
       " Khởi tạo cửa sổ kiểm soát tắc nghẽn là 1 MSS (Maximum Segment Size) ",
       " Giữ nguyên kích thước cửa sổ kiểm soát tắc nghẽn khi vượt qua giá trị ngưỡng của giai đoạn Slow Start ",
       " Giảm giá trị ngưỡng của giai đoạn Slow Start khi có timeout "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -637,6 +852,9 @@ let quiz = [
       " Bắt đầu lại giai đoạn tránh tắc nghẽn khi có time-out ",
       " Khi bắt đầu giai đoạn Slow Start, kích thước cửa số kiểm soát tắc nghẽn là 1MSS (Maximum Segment Size)           Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau:"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giai đoạn Slow Start bắt đầu tại những lượt gửi nào? ",
@@ -645,6 +863,9 @@ let quiz = [
       " 14 và 19 ",
       " 10 và 23 ",
       " 19 và 23"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -655,6 +876,9 @@ let quiz = [
       " 6-9, 14-18 và 19-22 ",
       " 19-22"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Tại lượt gửi nào, phía gửi xảy ra time-out?(Chọn 2 đáp án)  ",
@@ -663,6 +887,9 @@ let quiz = [
       " 14 ",
       " 18 ",
       " 22"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -674,6 +901,9 @@ let quiz = [
       " Hủy tất cả các gói tin đã nhận trước đó ",
       " Tách phần dữ liệu và chuyển cho tầng ứng dụng "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong quá trình truyền tin được điều khiển bởi giao thức TCP, tiến trình nguồn không nhận được báo nhận khi đã hết thời gian time-out. Giả sử giá trị cửa số kiểm soát tắc nghẽn là 5600 byte, và 1 MSS = 1400 byte, tiến trình này gửi đi liên tiếp tối đa bao nhiêu byte? ",
@@ -683,6 +913,9 @@ let quiz = [
       " 4200 ",
       " 5600 ",
       " 7000 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -694,6 +927,9 @@ let quiz = [
       " 2800 byte ",
       " 7000 byte "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức TCP, khi xảy ra time-out, phía gửi thực hiện những thao tác xử lý nào?(Chọn 2 đáp án) ",
@@ -704,6 +940,9 @@ let quiz = [
       " Chờ thêm một khoảng thời gian tối thiểu 2 lần RTT trung bình trước khi phát lại dữ liệu ",
       " Đóng liên kết hiện tại và thiết lập liên kết mới "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức TCP, phía nhận thực hiện thao tác xử lý nào nếu nhận được một gói tin khi bộ đệm đã đầy?(Chọn 2 đáp án) =69 ",
@@ -712,6 +951,9 @@ let quiz = [
       " Loại bỏ gói tin ",
       " Gửi lại ACK trước đó với giá trị Receive Window = 0 ",
       " Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -723,6 +965,9 @@ let quiz = [
       " Chỉ dùng trong mạng LAN ",
       " Nằm trong mạng có địa chỉ 116.12.34.128 /28"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Sử dụng mặt nạ 255.255.252.0 để chia mạng 160.12.64.0 /19 thành các mạng con. Số mạng con thành lập được là bao nhiêu? ",
@@ -732,6 +977,9 @@ let quiz = [
       " 3 ",
       " 8 ",
       " 6 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -743,6 +991,9 @@ let quiz = [
       " 1022 ",
       " 1024 "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Sử dụng mặt nạ 255.255.252.0 để chia mạng 160.12.64.0 /19 thành các mạng con. Địa chỉ nào sau đây không phải là một địa chỉ mạng con có được từ cách chia trên?(Chọn 2 đáp án) ",
@@ -752,6 +1003,9 @@ let quiz = [
       "160.12.72.0 /22 ",
       "160.12.74.0 /22 ",
       "160.12.76.0 /22 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -764,6 +1018,9 @@ let quiz = [
       "172.16.140.1 /21",
       "172.16.150.1 /21"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Những địa chỉ IP nào sau đây KHÔNG dùng trên mạng Internet?(Chọn 3 đáp án) ",
@@ -775,6 +1032,9 @@ let quiz = [
       " 203.147.12.156 /24 ",
       "172.12.101.57 /16"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Địa chỉ 148.37.21.104 thuộc phân lớp nào? ",
@@ -784,6 +1044,9 @@ let quiz = [
       " C ",
       " D ",
       " E "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -796,6 +1059,9 @@ let quiz = [
       "172.16.3.255 /21",
       "172.16.3.255 /22"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Sử dụng mặt nạ mạng nào sau đây để chia mạng 10.96.0.0 /10 thành 8 mạng con? ",
@@ -805,6 +1071,9 @@ let quiz = [
       "255.240.0.0",
       "255.248.0.0",
       "255.252.0.0"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -817,6 +1086,9 @@ let quiz = [
       " 126 ",
       " 30 "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Có bao nhiêu địa chỉ có thể sử dụng để gán cho các nút mạng trong mạng 204.16.156.32 /27? ",
@@ -825,6 +1097,9 @@ let quiz = [
       " 30 ",
       " 27 ",
       " 5 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -835,6 +1110,9 @@ let quiz = [
       "8.8.8.8",
       "224.0.0.25"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Gói tin IP có địa chỉ đích 67.125.90.13  sẽ được router chuyển tiếp tới mạng nào? ",
@@ -844,6 +1122,9 @@ let quiz = [
       "67.125.96.0 /19",
       "67.125.128.0 /17"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Mặt nạ mạng nào sau đây có thể chia mạng 172.16.64.0 /18 thành 16 mạng con?",
@@ -852,6 +1133,9 @@ let quiz = [
       "255.255.192.0",
       "255.255.252.0",
       "255.255.255.0"
+
+    ]
+    , "key": [
 
     ]
   },
@@ -864,6 +1148,9 @@ let quiz = [
       " Số chặng mã gói tin đã đi qua trước khi tới đích ",
       " Thời gian tối đa gói tin có thể nằm trong hàng đợi"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong hoạt động của giao thức IP, phía gửi không thực hiện thao tác nào dưới đây? ",
@@ -872,6 +1159,9 @@ let quiz = [
       " Thiết lập liên kết với phía nhận trước khi truyền đi ",
       " Chuyển gói tin cho tầng liên kết dữ liệu xử lý ",
       " Chờ báo nhận trước khi gửi gói tin tiếp theo "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -883,6 +1173,9 @@ let quiz = [
       " Thêm thông tin phần tiêu đề trước khi chuyển cho giao thức tầng trên ",
       " Xác định giao thức tầng trên nào sẽ xử lý tiếp dữ liệu "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giao thức IP không thực hiện thao tác nào tại phía nhận? ",
@@ -892,6 +1185,9 @@ let quiz = [
       " Phát báo nhận cho nút gửi ",
       " Hủy gói tin nếu TTL = 0 "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Nếu không tìm được cổng để chuyển tiếp gói tin IP đi, router xử lý như thế nào? ",
@@ -900,6 +1196,9 @@ let quiz = [
       " Thực hiện quá trình định tuyến để tìm đường đi cho gói tin này ",
       " Hủy gói tin và báo lỗi cho nút nguồn ",
       " Gửi lại gói tin cho nút nguồn "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -912,6 +1211,9 @@ let quiz = [
       " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết ",
       " Giảm giá trị TTL của gói tin "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Bộ định tuyến không thực hiện thao tác nào khi chuyển tiếp (forwarding) gói tin IP?  (Chọn 3 đáp án) ",
@@ -921,6 +1223,9 @@ let quiz = [
       " Giảm giá trị TTL (time-to-live) của gói tin ",
       " Phân mảnh gói tin nếu cần ",
       " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -932,6 +1237,9 @@ let quiz = [
       " Hàng đợi trên router bị đầy ",
       " Giá trị TTL = 1 "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Cơ chế nào được sử dụng để chuyển đổi địa chỉ IP khi chuyển tiếp gói tin IP giữa mạng cục bộ và mạng công cộng? ",
@@ -941,6 +1249,9 @@ let quiz = [
       " ARP ",
       " NAT "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Khi nào cần phân mảnh gói tin IP trong quá trình truyền? ",
@@ -949,6 +1260,9 @@ let quiz = [
       " Kích thước gói tin lớn hơn MTU của đường truyền ",
       " Kích thước gói tin lớn hơn kích thước còn trống trên bộ đệm của nút nhận ",
       " Phát hiện lỗi trên gói tin"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -960,6 +1274,9 @@ let quiz = [
       " Có nhiều lối ra phù hợp để đưa dữ liệu tới mạng đích ",
       " Kích thước vùng trống trong bộ đệm của nút kế tiếp không đủ để nhận gói tin"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Một gói tin IP có kích thước phần dữ liệu (payload) là 1200 byte bị phân thành 3 mảnh có giá trị Fragment Offset lần lượt là 0, 69, 138. Phần dữ liệu trong các mảnh này có kích thước lần lượt là bao nhiêu byte? ",
@@ -969,6 +1286,9 @@ let quiz = [
       " 50, 50, 50 ",
       " 552, 552, 96 ",
       " 96, 552, 552 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -980,6 +1300,9 @@ let quiz = [
       " Được sử dụng để thông báo có đụng độ xảy ra trong mạng điểm-đa điểm ",
       " Được chuyển ngay ra ngoài mạng Internet mà không cần chuyển đổi địa chỉ "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là đúng về định tuyến theo vec-tơ khoảng cách? ",
@@ -990,6 +1313,9 @@ let quiz = [
       " Chuyển tiếp các vec-tơ khoảng cách nhận được từ hàng xóm ra các cổng khác ",
       " Tốc độ hội tụ không phụ thuộc vào số liên kết giữa các nút "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Định tuyến theo vec-tơ khoảng cách hoạt động như thế nào? ",
@@ -998,6 +1324,9 @@ let quiz = [
       " Lan truyền thông tin vec-tơ khoảng cách nhận được tới các bộ định tuyến khác ",
       " Tính toán và cập nhật đường đi mới khi nhận được vec-tơ khoảng cách ",
       " Xây dựng sơ đồ mạng từ các vec-tơ khoảng cách nhận được"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1009,6 +1338,9 @@ let quiz = [
       " Độ trễ ",
       " Độ mất mát gói tin"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là SAI về định tuyến theo trạng thái liên kết? ",
@@ -1017,6 +1349,9 @@ let quiz = [
       " Sử dụng thuật toán Bellman-Ford để tìm đường đi ngắn nhất ",
       " Mỗi nút tự xây dựng hình trạng (topology) của mạng ",
       " Số lượng bản tin trao đổi tăng nhanh theo số liên kết trong mạng "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1027,6 +1362,9 @@ let quiz = [
       " Xây dựng topology của mạng  ",
       " Thực hiện thuật toán tìm đường đi ngắn nhất "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong một mạng sử dụng định tuyến theo trạng thái liên kết, router A thu thập được các thông tin liên kết dạng (link, cost) sau: (BA, 8), (CA, 1), (BC, 1), (CB, 1), (BD, 15), (DB, 15). Những đường đi nào dưới đây là đường đi ngắn nhất?(Chọn 2 đáp án) ",
@@ -1036,6 +1374,9 @@ let quiz = [
       " ABD ",
       " ACBD "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giả sử A nhận được thông tin đường đi dạng (đích đến, chi phí) từ B là (C, 1) và (E, 5), từ C là (D, 8) và (E, 4), từ D là (E, 4) và (C, 8). Đường đi nào sau đây KHÔNG phải là đường đi mà A lựa chọn? ",
@@ -1044,6 +1385,9 @@ let quiz = [
       " (C, 4) ",
       " (D, 3) ",
       " (E, 8) "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1055,6 +1399,9 @@ let quiz = [
       " EIGRP ",
       " BGP"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giao thức nào sau đây không nằm cùng nhóm với các giao thức còn lại ? ",
@@ -1064,6 +1411,9 @@ let quiz = [
       " IGRP ",
       " EIGRP ",
       " BGP "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1075,6 +1425,9 @@ let quiz = [
       " Mỗi nút tự xây dựng hình trạng (topology) của toàn mạng ",
       " Tìm đường đi ngắn nhất từ một nút tới các nút khác "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là SAI về giao thức OSPF? ",
@@ -1084,6 +1437,9 @@ let quiz = [
       " Là giao thức định tuyến nội vùng ",
       " Hỗ trợ định tuyến phân cấp"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giao thức định tuyến RIPv2 tính chi phí đường đi dựa trên thông số nào? ",
@@ -1092,6 +1448,9 @@ let quiz = [
       " Số chặng (hop) ",
       " Độ trễ ",
       " Tải"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1103,6 +1462,9 @@ let quiz = [
       " BGP ",
       " Tất cả các giao thức trên "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Ưu thế của giao thức định tuyến RIP so với OSPF là gì? ",
@@ -1113,6 +1475,9 @@ let quiz = [
       " Triển khai trên mạng có số lượng nút định tuyến lớn  Cho đồ thị mô hình hóa một hệ thống mạng, trong đó mỗi đỉnh là một router và mỗi liên kết có chi phí như hình vẽ dưới đâ",
       " Hãy trả lời các câu hỏi sau:"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Nếu các router cài đặt giao thức định tuyến OSPF thì tuyến đường ngắn nhất từ A tới E là gì? ",
@@ -1121,6 +1486,9 @@ let quiz = [
       " (A, C, D, E) ",
       " (A, C, E)  ",
       " (A, B, C, D, E)"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1131,6 +1499,9 @@ let quiz = [
       " (A, C, E) ",
       " (A, B, C, D, E)"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giao thức BGP thực hiện chức năng nào? ",
@@ -1139,6 +1510,9 @@ let quiz = [
       " Thiết lập kênh trong mạng chuyển mạch kênh ",
       " Định tuyến giữa các vùng tự trị (Autonomous System) trên Internet ",
       " Điều khiển truy nhập đường truyền trong mạng đa truy nhập"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1149,6 +1523,9 @@ let quiz = [
       " OSPF ",
       " BGP "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là SAI về giao thức định tuyến BGP? ",
@@ -1157,6 +1534,9 @@ let quiz = [
       " Phiên eBGP thực hiện giữa các router cùng một AS ",
       " Các thông điệp của phiên iBGP được định tuyến bởi các giao thức định tuyến nội vùng ",
       " Hai phiên iBGP và eBGP sử dụng giao thức giống nhau "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1167,6 +1547,9 @@ let quiz = [
       " Truyền thông tin định tuyến giữa các bộ định tuyến qua liên kết TCP ",
       " Sử dụng thuật toán định tuyến vec-tơ đường đi (path-vector) "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Tầng liên kết dữ liệu không thực hiện chức năng nào ? ",
@@ -1175,6 +1558,9 @@ let quiz = [
       " Biểu diễn các bit thành tín hiệu ",
       " Kiểm soát lỗi ",
       " Điều khiển truy nhập đường truyền "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1185,6 +1571,9 @@ let quiz = [
       " Hình vòng ",
       " Hình lưới "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Mạng nào sau đây là mạng điểm-điểm (point-to-point)? ",
@@ -1193,6 +1582,9 @@ let quiz = [
       " Mạng hình sao (star) sử dụng bộ chia mạng (hub) ",
       " Mạng hình sao sử dụng bộ định tuyến (router) ",
       " Cả 3 mạng trên "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1203,6 +1595,9 @@ let quiz = [
       " Mạng hình sao (star) sử dụng switch ",
       " Mạng LAN không dây sử dụng chuẩn IEEE"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Mạng nào sau đây thực hiện lan truyền tín hiệu theo phương thức điểm-đa điểm ? ",
@@ -1211,6 +1606,9 @@ let quiz = [
       " Mạng hình sao (star) sử dụng hub ",
       " Mạng hình sao (star) sử dụng switch ",
       " Mạng LAN không dây sử dụng chuẩn IEEE"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1223,6 +1621,9 @@ let quiz = [
       " Slotted Aloha ",
       " Token Passing "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Xác suất xảy ra đụng độ trong phương pháp điều khiển truy nhập đường truyền nào sau đây là cao nhất? ",
@@ -1233,6 +1634,9 @@ let quiz = [
       " CSMA/CD ",
       " Token passing "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phương pháp điều khiển truy nhập đường truyền nào dưới đây không nằm cùng nhóm với các phương pháp khác? ",
@@ -1241,6 +1645,9 @@ let quiz = [
       " Slotted Aloha ",
       " CSMA/CD ",
       " Token Passing Giải thích ở trên"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1251,6 +1658,9 @@ let quiz = [
       " CSMA ",
       " TDMA Giải thích ở trên"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là đúng về phương pháp điều khiển truy nhập đường truyền Pure Aloha? ",
@@ -1259,6 +1669,9 @@ let quiz = [
       " Kiểm tra trạng thái đường truyền trước khi gửi dữ liệu ",
       " Đồng bộ thời gian giữa các nút ",
       " Truyền nhiều khung tin nhất có thể trong một khung thời gian (frame time) "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1269,6 +1682,9 @@ let quiz = [
       " Truyền dữ liệu ngay khi cần ",
       " Phát hiện đụng độ và thông báo cho các nút trong mạng "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Điều gì làm cho phương pháp điều khiển truy nhập Slotted Aloha có hiệu quả cao hơn Pure Aloha? ",
@@ -1277,6 +1693,9 @@ let quiz = [
       " Thiết lập mức ưu tiên truyền của các nút ",
       " Đồng bộ thời gian giữa các nút ",
       " Truyền nhiều hơn một khung tin trong một khe thời gian (frame time) "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1288,6 +1707,9 @@ let quiz = [
       " Không kiểm tra trạng thái đường truyền trước khi truyền ",
       " Không thiết lập thứ tự truy cập đường truyền giữa các nút "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phương pháp điều khiển truy nhập đường truyền CSMA/CD thực hiện như thế nào?(Chọn 3 đáp án) ",
@@ -1296,6 +1718,9 @@ let quiz = [
       " Cảm nhận năng lượng sóng mang khi truyền khung tin đầu tiên để phát hiện đúng độ ",
       " Duy trì việc phát tín hiệu báo đụng độ trên đường truyền trong một khoảng thời gian để tất cả nút mạng khác cảm nhận được ",
       " Thiết lập độ ưu tiên truy nhập đường truyền cho các nút mạng "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1307,6 +1732,9 @@ let quiz = [
       " Chờ đụng độ được vãn hồi trong khoảng thời gian nào đó ",
       " Sau khi đụng độ được vãn hồi, truyền lại ngay mà không cần kiểm tra trạng thái đường truyền "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là đúng về thẻ bài trong phương pháp truy nhập đường truyền Token Passing?(Chọn 3 đáp án) ",
@@ -1316,6 +1744,9 @@ let quiz = [
       " Thẻ bài được sử dụng để phát hiện đụng độ trong mạng ",
       " Cho phép thiết lập mức độ ưu tiên truyền dữ liệu ",
       " Là một gói tin có khuôn dạng và kích thước xác định "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1329,6 +1760,9 @@ let quiz = [
       " ",
       " Sau khi truyền xong dữ liệu, nút mạng sẽ trả thẻ bài về cho trung tâm phân phối thẻ bài "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Khi điều khiển truy nhập đường truyền, ưu thế của phương pháp phương pháp sử dụng thẻ bài (Token Passing) so với điều khiển ngẫu nhiên là gì? ",
@@ -1337,6 +1771,9 @@ let quiz = [
       " Đơn giản hơn ",
       " Hiệu suất sử dụng đường truyền cao hơn ",
       " Cả 3 đáp án trên"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1348,6 +1785,9 @@ let quiz = [
       " Có cơ chế phát hiện và vãn hồi đụng độ ",
       " Tất cả các đáp án trên"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Điểm khác biệt của chuyển tiếp dữ liệu ở tầng 2 trên switch so với chuyển tiếp ở tầng 3 trên router là gì?(Chọn 2 đáp án) ",
@@ -1358,6 +1798,9 @@ let quiz = [
       " Các gói tin được xử lý độc lập ",
       " Không quảng bá dữ liệu có địa chỉ đích là địa chỉ quảng bá "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Khi nhận được một khung tin, switch có thể thực hiện những thao tác xử lý nào ? (Chọn 3 đáp án) ",
@@ -1366,6 +1809,9 @@ let quiz = [
       " Phân mảnh khung tin ",
       " Bổ sung địa chỉ nguồn vào bảng chuyển tiếp nếu chưa biết ",
       " Quảng bá khung tin nếu chưa biết địa chỉ đích "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1376,6 +1822,9 @@ let quiz = [
       " Quảng bá một thông điệp tìm kiếm địa chỉ các nút mạng, bổ sung thông tin từ thông điệp trả lời vào bảng MAC Table ",
       " Sử dụng bảng MAC Table từ các switch khác gửi tới "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Switch thực hiện những thao tác xử lý nào khi nhận được một khung tin có địa chỉ đích là A1-B2-C3-D4-E5-F6?(Chọn 2 đáp án) ",
@@ -1385,6 +1834,9 @@ let quiz = [
       " Kiểm tra lỗi trên khung tin ",
       " Chuyển ngay khung tin ra tất cả các cổng trừ cổng nhận khung tin ",
       " Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ. "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1397,6 +1849,9 @@ let quiz = [
       " Chuyển khung tin ra tất cả các cổng trừ cổng nhận khung tin ",
       " Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ. "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Khi một nút mạng nhận được yêu cầu gửi gói tin tới một nút khác cùng mạng, nếu chưa biết địa chỉ MAC của nút đích, nó sẽ thực hiện như thế nào? ",
@@ -1406,6 +1861,9 @@ let quiz = [
       " Gửi thông điệp ARP Request tìm kiếm địa chỉ MAC của nút đích ",
       " Từ chối yêu cầu gửi dữ liệu và báo lỗi "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Giao thức ARP(Address Resolution Protocol) thực hiện chức năng nào? ",
@@ -1414,6 +1872,9 @@ let quiz = [
       " Tìm kiếm địa chỉ MAC khi biết địa chỉ IP ",
       " Tìm kiểm địa chỉ IP khi biết địa chỉ MAC ",
       " Tìm kiếm địa chỉ mạng của một mạng "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1425,6 +1886,9 @@ let quiz = [
       " Địa chỉ MAC của các nút mạng được cấp phát tự động bởi dịch vụ DHCP ",
       " Được sử dụng để định danh tại tầng liên kết dữ liệu "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là đúng về địa chỉ MAC?  ",
@@ -1433,6 +1897,9 @@ let quiz = [
       " Thay đổi tùy thuộc theo địa chỉ của mạng mà nút mạng đang kết nối ",
       " Có kích thước 32 bit ",
       " Có thể cấp phát bởi dịch vụ DHCP"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1443,6 +1910,9 @@ let quiz = [
       " Khoảng cách kết nối tối đa là 1000 mét ",
       " Tốc độ truyền tối đa là 1 Gbps "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Loại mã phát hiện lỗi nào sau đây cho phép phát hiện nhiều vị trí lỗi nhất trên gói dữ liệu? ",
@@ -1452,11 +1922,17 @@ let quiz = [
       " CRC-16 ",
       " CRC-32"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Chuẩn nào sau đây dùng cho mạng LAN không dây (WLAN)? ",
     "ans": [
       " IEEE"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1468,6 +1944,9 @@ let quiz = [
       " 1 Gbps ",
       " 54 Mbps"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Những mô tả nào sau đây là đúng với chuẩn Ethernet 1000BASE-T? (Chọn 3 đáp án) ",
@@ -1477,6 +1956,9 @@ let quiz = [
       " Phù hợp với mọi hình trạng mạng ",
       " Điều khiển truy nhập đường truyền bằng CSMA/CD ",
       " Sử dụng đầu nối RJ-45 "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1489,6 +1971,9 @@ let quiz = [
       " 1000BASE-T ",
       " 1000BASE-CX "
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Cáp xoắn đôi được sử dụng trong các chuẩn mạng nào dưới đây?  ",
@@ -1498,6 +1983,9 @@ let quiz = [
       " 100BASE-T ",
       " 100BASE-FX ",
       " IEEE"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1509,6 +1997,9 @@ let quiz = [
       " Mã NRZ ",
       " Mã Manchester"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phát biểu nào sau đây là đúng về mã Manchester? ",
@@ -1517,6 +2008,9 @@ let quiz = [
       " Bit 1 được biểu diễn luân phiên bởi các xung âm và xung dương ",
       " Chuyển về mức điện áp 0 ở giữa xung ",
       " Thay thế chuỗi các bit 0 liên tiếp bằng mẫu bít đặc biệt để tránh mất đồng bộ "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1528,6 +2022,9 @@ let quiz = [
       " Mã CRC-16 ",
       " Mã CRC-32"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Phương pháp mã hóa Manchester có thể được sử dụng tại tầng nào trong mô hình OSI? ",
@@ -1536,6 +2033,9 @@ let quiz = [
       " Tầng giao vận ",
       " Tầng liên kết dữ liệu ",
       " Tầng vật lý "
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1546,6 +2046,9 @@ let quiz = [
       " Thứ tự truyền của dữ liệu ",
       " Cú pháp và ngữ nghĩa của dữ liệu ",
       " Loại thiết bị cần phải sử dụng"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1558,6 +2061,9 @@ let quiz = [
       " Là mô hình dùng cho mạng Internet ",
       " Là một mô hình phân tầng"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Thứ tự đúng khi liệt kê từ trên xuống của các tầng trong mô hình TCP/IP là gì?  ",
@@ -1567,6 +2073,9 @@ let quiz = [
       " Ứng dụng, Giao vận, Mạng, Liên kết dữ liệu, Vật lý ",
       " Ứng dụng, Liên kết dữ liệu, Giao vận, Mạng, Vật lý ",
       " Vật lý, Mạng, Liên kết dữ liệu, Ứng dụng, Giao vận"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1578,6 +2087,9 @@ let quiz = [
       " Vật lý ",
       " Mạng"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Tầng vật lý thực hiện chức năng nào?  ",
@@ -1586,6 +2098,9 @@ let quiz = [
       " Điều khiển truyền dữ liệu giữa 2 thiết bị trên liên kết vật lý ",
       " Điều khiển truyền dữ liệu qua các mạng khác nhau ",
       " Điều khiển truyền dữ liệu giữa các ứng dụng mạng"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1597,6 +2112,9 @@ let quiz = [
       " Bền chắc hơn ",
       " Rẻ hơn"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trong kiến trúc phân tầng TCP/IP, tầng liên kết dữ liệu thực hiện chức năng nào?  ",
@@ -1605,6 +2123,9 @@ let quiz = [
       " Điều khiển truyền dữ liệu qua các mạng ",
       " Điều khiển truyền dữ liệu giữa các ứng dụng ",
       " Điều khiển truyền dữ liệu giữa các nút trên liên kết vật lý"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1615,6 +2136,9 @@ let quiz = [
       " Có kích thước 48 bit ",
       " Dùng để phân biệt các nút khác nhau trong cùng mạng"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Trường Preamble trong khung tin Ethernet được sử dụng như thế nào?(Chọn 2 đáp án)  ",
@@ -1622,6 +2146,9 @@ let quiz = [
       " Phát hiện lỗi trên khung tin ",
       " Báo hiệu bắt đầu một khung tin ",
       " Đồng bộ tốc độ truyền"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1631,6 +2158,9 @@ let quiz = [
       " 26 ",
       " 64 ",
       " 46"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1642,6 +2172,9 @@ let quiz = [
       " Chuyển tiếp dữ liệu sang mạng khác ",
       " Tìm đường đi"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Bộ định tuyến KHÔNG thực hiện bước xử lý nào sau đây khi chuyển tiếp một gói tin IPv4?  ",
@@ -1651,6 +2184,9 @@ let quiz = [
       " Tìm kiếm lối ra dựa trên địa chỉ đích ",
       " Phân mảnh gói tin nếu kích thước lớn hơn giá trị MTU của đường truyền ",
       " Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1662,6 +2198,9 @@ let quiz = [
       " Gói tin bị phân mảnh ",
       " Hàng đợi trên router bị đầy"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Địa chỉ nào sau đây thuộc phân lớp B? (Chọn tất cả đáp án đúng)  ",
@@ -1671,6 +2210,9 @@ let quiz = [
       "198.37.12.5",
       "115.3.197.31",
       "180.201.1.3"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1682,6 +2224,9 @@ let quiz = [
       "194.56.129.56",
       "208.67.222.222"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Địa chỉ nào sau đây là địa chỉ mạng?(Chọn tất cả đáp án đúng)  ",
@@ -1690,6 +2235,9 @@ let quiz = [
       "24.2.128.0 /17",
       "100.4.0.0 /11",
       "140.31.32.0 /18"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1701,6 +2249,9 @@ let quiz = [
       "195.34.1.159 /28",
       "80.63.255.255 /12"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Thông điệp DHCP nào được máy trạm gửi đi để tìm kiếm máy chủ DHCP?  ",
@@ -1709,6 +2260,9 @@ let quiz = [
       " DHCP Offer ",
       " DHCP Release ",
       " DHCP Discover"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1719,6 +2273,9 @@ let quiz = [
       " DHCP ACK ",
       " DHCP Request"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Mục đích cài đặt DHCP Relay Agent trên bộ định tuyến là gì? ",
@@ -1726,6 +2283,9 @@ let quiz = [
       " Xác định đường đi tới máy chủ DHCP ",
       " Chuyển tiếp các thông điệp DHCP ",
       " Ngặn chặn các thông điệp DHCP của máy chủ lạ gửi vào trong mạng"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1735,11 +2295,17 @@ let quiz = [
       " Dynamic NAT ",
       " PAT"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Địa chỉ trên gói tin này thay đổi như thế nào?   ",
     "ans": [
       " Địa chỉ đích được thay thế bằng"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1750,6 +2316,9 @@ let quiz = [
       " Tìm địa chỉ MAC của một nút trong cùng mạng ",
       " Tìm địa chỉ IP của một nút trong cùng mạng"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Thông điệp ARP Request được gửi đi theo phương thức nào?  ",
@@ -1757,6 +2326,9 @@ let quiz = [
       " Broadcast ",
       " Multicast ",
       " Unicast"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1767,6 +2339,9 @@ let quiz = [
       " ICMP Echo Request ",
       " Destination Network Unreachable"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Thông điệp ICMP Time Exceeded được một nút gửi đi khi nào? ",
@@ -1775,6 +2350,9 @@ let quiz = [
       " Nhận được gói tin IP bị phân mảnh ",
       " Nhận được gói tin có giá trị TTL = 0 ",
       " Hàng đợi chờ chuyển tiếp gói tin bị đầy"
+    ]
+    , "key": [
+
     ]
   },
   {
@@ -1787,6 +2365,9 @@ let quiz = [
       " RST ",
       " FIN"
     ]
+    , "key": [
+
+    ]
   },
   {
     "question": "Gói tin TCP báo chấp nhận yêu cầu kết nối sử dụng giá trị cờ nào?(Chọn tất cả đáp án đúng)  ",
@@ -1797,6 +2378,9 @@ let quiz = [
       " SYN ",
       " RST ",
       " FIN"
+    ]
+    , "key": [
+
     ]
   },
   {

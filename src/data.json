@@ -35,7 +35,7 @@
             " 140 s ",
             " Xấp xỉ"
         ],
-        "ans":[
+        "key":[
             " 80 s "
 
         ]
@@ -591,7 +591,7 @@
         ]
     },
     {
-        "question": "Tại phía gửi, giao thức UDP thực hiện những thao tác xử lý nào? (chọn 2 đáp án) ",
+        "question": "Tại phía gửi, giao thức UDP thực hiện những thao tác xử lý nào? ",
         "ans": [
             " Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin ",
             " Thiết lập liên kết với phía nhận ",
@@ -600,6 +600,8 @@
             " Đặt bộ đếm time-out cho mỗi gói tin gửi đi "
         ]
         ,"key":[
+            " Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin ",
+            " Chuyển gói tin xuống tầng mạng "
 
         ]
     },
@@ -612,7 +614,8 @@
             " Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu cổng đích"
         ]
         ,"key":[
-
+            " Báo nhận thành công ",
+            " Loại bỏ các gói tin nhận được không theo đúng thứ tự "
         ]
     },
     {
@@ -626,7 +629,8 @@
             " Hủy liên kết sau khi đã nhận đủ dữ liệu"
         ]
         ,"key":[
-
+            " Kiểm tra lỗi bit trên phần tiêu đề gói tin dựa vào mã checksum ",
+            " Chuyển dữ liệu cho tiến trình trên tầng ứng dụng dựa vào số hiệu cổng ứng dụng đích "
         ]
     },
     {
@@ -638,6 +642,7 @@
             " Báo nhận không thành công để phía gửi phát lại"
         ]
         ,"key":[
+            " Hủy gói tin  "
 
         ]
     },
@@ -650,6 +655,9 @@
             " Không phải phát lại dữ liệu"
         ]
         ,"key":[
+            " Kích thước phần tiêu đề nhỏ hơn ",
+            " Hoạt động đơn giản hơn ",
+            " Nhanh hơn "
 
         ]
     },
@@ -659,9 +667,12 @@
             " Nhanh hơn do truyền dữ liệu theo dòng byte ",
             " Tin cậy hơn ",
             " Không làm quá tải nút nhận ",
-            " Có cơ chế kiểm soát tắc nghẽn  - TCP"
+            " Có cơ chế kiểm soát tắc nghẽn"
         ]
         ,"key":[
+            " Tin cậy hơn ",
+            " Không làm quá tải nút nhận ",
+            " Có cơ chế kiểm soát tắc nghẽn"
 
         ]
     },
@@ -675,6 +686,9 @@
             " Kiểm soát tắc nghẽn "
         ]
         ,"key":[
+            " Sử dụng ACK báo nhận dữ liệu thành công ",
+            " Sử dụng checksum để kiểm soát lỗi ",
+            " Phát lại dữ liệu khi xảy ra time-out "
 
         ]
     },
@@ -687,7 +701,9 @@
             " Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổ trượt "
         ]
         ,"key":[
-
+            " Nhận được 3 gói tin báo nhận có ACK Number giống nhau ",
+            " Xảy ra timeout ",
+            " Phát hiện lỗi trên gói tin báo nhận "
         ]
     },
     {
@@ -699,6 +715,8 @@
             " Phản hồi lại gói tin đã nhận"
         ]
         ,"key":[
+            " Thiết lập cờ ACK trên gói tin phản hồi ",
+            " Tính toán ACK Number trên gói tin phản hồi để yêu cầu dữ liệu tiếp theo "
 
         ]
     },
@@ -711,6 +729,7 @@
             " Thiết lập liên kết "
         ]
         ,"key":[
+            " Xác định lượng dữ liệu tối đa bên nhận có thể nhận "
 
         ]
     },
@@ -724,6 +743,7 @@
             " FTP "
         ]
         ,"key":[
+            " SMTP "
 
         ]
     },
@@ -736,6 +756,7 @@
             " Sửa lỗi trên gói tin"
         ]
         ,"key":[
+            " Phát hiện lỗi trên gói tin "
 
         ]
     },
@@ -749,7 +770,7 @@
             " Mã CRC 32 bit "
         ]
         ,"key":[
-
+            " Mã checksum 16 bit "
         ]
     },
     {
@@ -761,6 +782,7 @@
             " Báo kết thúc nhận dữ liệu"
         ]
         ,"key":[
+            " Báo kết thúc gửi dữ liệu "
 
         ]
     },
@@ -774,6 +796,7 @@
             " Host C sử dụng giá trị cửa số nhận giống nhau cho cả hai liên kết với A và B "
         ]
         ,"key":[
+            " Host C sử dụng các socket khác nhau để tạo liên kết với host A và B "
 
         ]
     },
@@ -786,6 +809,7 @@
             " P1 và P2 sử dụng cửa sổ kiểm soát tắc nghẽn giống nhau"
         ]
         ,"key":[
+            " Khi P1 ngắt liên kết, P2 vẫn trao đổi dữ liệu một cách bình thường với P3 "
 
         ]
     },
@@ -799,6 +823,8 @@
             " Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệm"
         ]
         ,"key":[
+            " Loại bỏ gói tin ",
+            " Gửi lại ACK xác nhận các trước đó với giá trị Receive Window = 0 "
 
         ]
     },
@@ -812,6 +838,7 @@
             " 8"
         ]
         ,"key":[
+            " 8"
 
         ]
     },
@@ -825,6 +852,7 @@
             " Phía gửi không cần chuyển sang giai đoạn tránh tắc nghẽn"
         ]
         ,"key":[
+            " Phía gửi phát hiện sớm tắc nghẽn "
 
         ]
     },
@@ -837,6 +865,7 @@
             " Giảm giá trị ngưỡng của giai đoạn Slow Start khi có timeout "
         ]
         ,"key":[
+            " Giữ nguyên kích thước cửa sổ kiểm soát tắc nghẽn khi vượt qua giá trị ngưỡng của giai đoạn Slow Start "
 
         ]
     },
@@ -849,11 +878,14 @@
             " Khi bắt đầu giai đoạn Slow Start, kích thước cửa số kiểm soát tắc nghẽn là 1MSS (Maximum Segment Size)           Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau:"
         ]
         ,"key":[
+            " Không tăng kích thước cửa sổ kiểm soát tắc ngẽn trong giai đoạn tránh tắc nghẽn ",
+            " Bắt đầu lại giai đoạn tránh tắc nghẽn khi có time-out "
 
         ]
     },
     {
         "question": "Giai đoạn Slow Start bắt đầu tại những lượt gửi nào? ",
+        "link":"1.png",
         "ans": [
             " 10 và 14 ",
             " 14 và 19 ",
@@ -861,11 +893,13 @@
             " 19 và 23"
         ]
         ,"key":[
-
+            " 10 và 23 "
+            
         ]
     },
     {
         "question": "Đoạn nào biểu diễn giai đoạn tránh tắc nghẽn? ",
+        "link":"1.png",
         "ans": [
             " 6-14 ",
             " 6-10 và 14-18 ",
@@ -873,11 +907,13 @@
             " 19-22"
         ]
         ,"key":[
-
+            " 6-9, 14-18 và 19-22 "
+            
         ]
     },
     {
-        "question": "Tại lượt gửi nào, phía gửi xảy ra time-out?(Chọn 2 đáp án)  ",
+        "question": "Tại lượt gửi nào, phía gửi xảy ra time-out? ",
+        "link":"1.png",
         "ans": [
             " 9 ",
             " 14 ",
@@ -885,6 +921,8 @@
             " 22"
         ]
         ,"key":[
+            " 9 ",
+            " 22"
 
         ]
     },
@@ -898,6 +936,8 @@
             " Tách phần dữ liệu và chuyển cho tầng ứng dụng "
         ]
         ,"key":[
+            " Hủy gói tin bị lỗi ",
+            " Gửi báo nhận với ACK Number = 5600 cho bên nhận "
 
         ]
     },
@@ -911,6 +951,7 @@
             " 7000 "
         ]
         ,"key":[
+            " 1400 "
 
         ]
     },
@@ -924,6 +965,7 @@
             " 7000 byte "
         ]
         ,"key":[
+            " 4200 byte "
 
         ]
     },
@@ -937,6 +979,8 @@
             " Đóng liên kết hiện tại và thiết lập liên kết mới "
         ]
         ,"key":[
+            " Tính toán lại giá trị cửa sổ kiểm soát tắc nghẽn ",
+            " Phát lại dữ liệu đã gửi mà chưa nhận được ACK  "
 
         ]
     },
@@ -949,6 +993,8 @@
             " Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0 "
         ]
         ,"key":[
+            " Loại bỏ gói tin ",
+            " Gửi lại ACK trước đó với giá trị Receive Window = 0 "
 
         ]
     },
@@ -962,6 +1008,8 @@
             " Nằm trong mạng có địa chỉ 116.12.34.128 /28"
         ]
         ,"key":[
+            " Là một địa chỉ phân lớp A ",
+            " Có thể gán cho một nút mạng "
 
         ]
     },
@@ -975,7 +1023,7 @@
             " 6 "
         ]
         ,"key":[
-
+            " 8 "
         ]
     },
     {
