@@ -832,7 +832,7 @@ let quizz = [
     ]
   },
   {
-    "question": "Nếu gói tin số 2 bị mất thì tổng số gói tin phía gửi đã gửi đi là bao nhiêu sau khi kết thúc quá trình truyền tin? ",
+    "question": "Giả sử giao thức TCP sử dụng thuật toán Go-back-N để phát lại các gói tin bị lỗi. Phía gửi cần truyền các gói tin được đánh số thứ tự là 0, 1, 2, 3, 4; kích thước cửa sổ gửi là 3. Nếu gói tin số 2 bị mất thì     tổng số gói tin phía gửi đã gửi đi là bao nhiêu sau khi kết thúc quá trình truyền tin? ",
     "ans": [
       " 4 ",
       " 5 ",
@@ -2065,6 +2065,7 @@ let quizz = [
 
     ]
     , "key": [
+      "IEEE 802.11",
 
     ]
   },
@@ -2584,15 +2585,14 @@ let quizz = [
 let ids = []
 
 function App() {
-  const [quizId, setQuizId] = useState(0);
+  const [quizId, setQuizId] = useState(quizz[0]);
   const changeQuiz = () => {
     let rand
-    do {
-      rand = Math.floor(Math.random() * quizz.length);
+    rand = Math.floor(Math.random() * quizz.length);
 
-    } while (ids.includes(rand))
     ids.push(quizId);
-    setQuizId(rand)
+    setQuizId(quizz[rand])
+    quizz.splice(rand, 1)
   }
   const backQues = () => {
     const id = ids.pop();
@@ -2602,7 +2602,7 @@ function App() {
   return (
     <div className="App d-flex justify-center align-center full-height">
 
-      <Quiz quiz={quizz[quizId]} handleChangeQuiz={changeQuiz} handleBackQuiz={backQues}></Quiz>
+      <Quiz quiz={quizId} handleChangeQuiz={changeQuiz} handleBackQuiz={backQues}></Quiz>
     </div>
   );
 }

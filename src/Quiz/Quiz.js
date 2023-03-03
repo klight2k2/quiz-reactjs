@@ -37,7 +37,7 @@ export default function Quiz({ quiz, handleChangeQuiz, handleBackQuiz }) {
     return (
         <div className='quiz '>
             <h2 className='title' >{quiz.question}</h2>
-            {quiz?.link ? <image src={quiz.link} /> : ""}
+            {quiz?.link ? <img src={quiz.link} /> : ""}
             <div className='list '>
                 {quiz.ans.map((item, id) => {
                     return <div className={correct[id] === 1 ? "correct " : correct[id] === -1 ? "wrong " : ""} key={id}>
