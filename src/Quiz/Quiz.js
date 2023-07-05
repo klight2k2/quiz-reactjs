@@ -43,7 +43,7 @@ export default function Quiz({ quiz, handleChangeQuiz, handleBackQuiz }) {
                     return <div className={correct[id] === 1 ? "correct " : correct[id] === -1 ? "wrong " : ""} key={id}>
                         <label className='container' htmlFor={id}> {item}
                             <input type="checkbox" id={id} name={item} value={item} onChange={() => handleOnChange(id)} checked={checkedState[id]} />
-                            <span class="checkmark"></span>
+                            <span className="checkmark"></span>
                         </label>
                     </div>
                 })}
